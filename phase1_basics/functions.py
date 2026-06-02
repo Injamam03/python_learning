@@ -1,5 +1,6 @@
 a = int(input("Enter the first number: "))
 b = int(input("Enter the secound nmber: "))
+
 add = a+b;
 sub = a-b;
 mul = a*b;
