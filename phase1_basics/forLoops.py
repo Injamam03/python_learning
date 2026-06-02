@@ -29,5 +29,17 @@ for index, frut in enumerate(frutisList):
 print(" ================  this  6th for loop =======================")
 name = "Injamam Ul Hoque Sifat"
 
-for l in name:
-    print(l)
+for letter in name:
+    print(letter)
+
+print(" ================  this  7th for loop =======================")
+
+
+for i in range(1,6):
+    print(f"5 X {i} = {5*i} ")
+
+
+print(" ================  this  7th for loop =======================")
+
+for i in range(1,10):
+    print(i," Injamam")
