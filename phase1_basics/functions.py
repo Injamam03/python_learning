@@ -1,6 +1,6 @@
 # Arithmetic operator ============
 print(" ================  00000000 =======================")
-"""
+
 
 a = int(input("Enter the first number: "))
 b = int(input("Enter the secound nmber: "))
@@ -53,7 +53,7 @@ print(a)
 a **=20
 print(a)
 
-"""
+
 print(" ================  00000000 =======================")
 
 # logical operator 
@@ -73,11 +73,13 @@ print("Or operator : ", (a==b) or (a>b))
 
 
 print(" ================  00000000 =======================")
-# name = str(input("Enter Your Name : "))
-# age = int(input("Enter your age : "))
-# homeAdress = str(input("Enter Your Home Adress : "))
 
-# print("MY name is", name ,". I am ", age , " and I am from", homeAdress)
+
+name = str(input("Enter Your Name : "))
+age = int(input("Enter your age : "))
+homeAdress = str(input("Enter Your Home Adress : "))
+
+print("MY name is", name ,". I am ", age , "years old and I am from", homeAdress)
 
 
 # print(" ================  00000000 =======================")
