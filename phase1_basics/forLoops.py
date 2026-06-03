@@ -46,26 +46,3 @@
     
 
 
-# a, b = 2,5
-# tx = "*"
-# print(2*tx*5)
-
-
-# a, b = "2",5
-# tx = "*"
-# print((a+tx)*b)
-
-
-# old=14;
-# print(type(old))
-
-# a, b, c = 5,6,6;
-# d = 20;
-# print(a+b+c*d)
-
-
-# a , b  = 20, 6
-# c = a/b
-# d = a%b
-# print(c,)
-# print(d)
