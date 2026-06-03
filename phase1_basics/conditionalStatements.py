@@ -75,8 +75,9 @@ print(" ================  One line if and else condition  ======================
 age = int(input("Enter your age : "))
 vote = ("yes", "No") [age<=18]
 print(vote )
+
 print(" ================  00000000 =======================")
 
-salary = int(input("Enter your Salary"))
+salary = int(input("Enter your Salary : "))
 taxes = salary*(.01, 0.2) [salary > 5000]
 print(taxes)
