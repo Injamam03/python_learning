@@ -35,7 +35,7 @@ print(a<=b)
 print(a>b)
 print(a<b)
 
-"""
+
 print(" ================  00000000 =======================")
 
 # assignment operator  
@@ -53,7 +53,26 @@ print(a)
 a **=20
 print(a)
 
+"""
+print(" ================  00000000 =======================")
 
+# logical operator 
+a = 50
+b = 20
+
+
+print(not False)
+print(not (a>b))
+
+value1 = True
+value2 = False
+
+print("And operator : ", value1 and value2)
+print("Or operator : ", value1 or value2)
+print("Or operator : ", (a==b) or (a>b))
+
+
+print(" ================  00000000 =======================")
 # name = str(input("Enter Your Name : "))
 # age = int(input("Enter your age : "))
 # homeAdress = str(input("Enter Your Home Adress : "))
