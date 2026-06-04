@@ -47,27 +47,68 @@ print(list(student.items()))
 print(list(student.items())[0])
 
 """  
-######### ============ set in python ===============#############
+print("================= 00000000000000  =======================")
+marks = {}
 
-# collection = {1,8,9,0,}
-# print(collection)
-# print(type(collection))
 
-# print("================= 00000000000000  =======================")
+x = int(input("Enter your physics mark : "))
+marks.update({"Physisces " :  x})
 
-# collection = {1,8,9,0,"math","english","math"}
-# print(collection)
-# print(type(collection))
+
+x = int(input("Enter your english mark : "))
+marks.update({"english " :  x})
+
+x = int(input("Enter your math mark : "))
+marks.update({"math " :  x})
+
+
+print(marks)
+print(type(marks))
+
+
+
+
+
+
+
+
+######## ============ set in python ===============#############
+
+collection = {1,8,9,0,}
+print(collection)
+print(type(collection))
+
+print("================= 00000000000000  =======================")
+
+collection = {1,8,9,0,"math","english","math"}
+print(collection)
+print(type(collection))
 
 
 collection = set()  #this is syntax of empty set 
+
 # set methods. (add, remove, clear, pop) . most important sets mutable but element immutable
+
 collection = set()
 collection.add("a")
 collection.add(1)
 collection.add(2)
 # collection.remove("a")
-collection.clear()
+# collection.clear()
 # collection.pop()
 print(collection)
+
+print("================= 00000000000000  =======================")
+
+# extra important se methods (union and intersection)
+
+set1 = {1,2,3,4}
+set2 = {3,4,5,6}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1)
+print(set2)
+
+
 
