@@ -31,29 +31,23 @@ if (num%5 ==0):
 else:
     print("This is not multiple number :",num)
 
-"""
+  """    
 
-student = ["Inajamam","Shawon","Sagar","Rasel"]
-student[0]= "Sifat"
-print(student)
-print(student[3])
-print(student[:3])
-print(student[0:])
 
-print(" ================  00000000 =======================")
 
-student = ["Inajamam",25,90,"Rasel"]
-print(student[1:3])
 
-print(" ================  00000000 =======================")
-student = [40,25,90,50]
-student.append(60)
-print(student)
-print(student.sort(reverse=True))
-print(student)
 
-print(" ================  00000000 =======================")
 
-list = [40,25,90,50]
-list.reverse()
-print(list)
+
+
+
+
+
+
+
+
+
+
+
+
+
