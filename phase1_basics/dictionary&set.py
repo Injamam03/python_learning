@@ -1,5 +1,6 @@
+"""
 print(" ================  00000000 =======================")
-# this dictionary =======================
+######### ============ dictionary in python ===============#############
 info ={
     "name"    : "Injama",
     "subject" : ["python","c", "java", "dart"],
@@ -44,3 +45,29 @@ print(list(student.keys()))
 print(list(student.values()))
 print(list(student.items()))
 print(list(student.items())[0])
+
+"""  
+######### ============ set in python ===============#############
+
+# collection = {1,8,9,0,}
+# print(collection)
+# print(type(collection))
+
+# print("================= 00000000000000  =======================")
+
+# collection = {1,8,9,0,"math","english","math"}
+# print(collection)
+# print(type(collection))
+
+
+collection = set()  #this is syntax of empty set 
+# set methods. (add, remove, clear, pop) . most important sets mutable but element immutable
+collection = set()
+collection.add("a")
+collection.add(1)
+collection.add(2)
+# collection.remove("a")
+collection.clear()
+# collection.pop()
+print(collection)
+
