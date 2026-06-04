@@ -13,6 +13,8 @@ info ={
 
 info["name"] = "Injamam "
 
+new_info ={"adress": "cox's bazar"}
+info.update(new_info)
 
 print(type(info))
 print(info)
@@ -33,6 +35,12 @@ student = {
     },
     "roll": 15
 }
+
 print(student)
 print(student["subject"])
 print(student["subject"]["math"])
+# use dictionary methods . 
+print(list(student.keys()))
+print(list(student.values()))
+print(list(student.items()))
+print(list(student.items())[0])
