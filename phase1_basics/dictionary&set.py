@@ -45,8 +45,7 @@ print(list(student.keys()))
 print(list(student.values()))
 print(list(student.items()))
 print(list(student.items())[0])
-
-"""  
+  
 print("================= 00000000000000  =======================")
 marks = {}
 
@@ -111,4 +110,52 @@ print(set1)
 print(set2)
 
 
+"""
 
+
+
+
+##################################===============   Loops    =================########################################
+
+
+# count = 1 
+# while count <=100:
+#     # print("hello")
+#     count += 1
+#     print(count, "= hello")
+
+
+
+# i = 5 
+# while i >= 1:
+#     print('hellow')
+#     i -= 1
+# print("loop is end")
+
+
+
+# i = 1
+# while  i <= 10 :
+#     print("3 X ",i, " = ", i*3)
+#     i += 1
+
+
+
+
+# n = int(input("Enter your number: "))
+# i = 1
+# while  i <= 10 :
+#     print(n*i)
+#     i += 1
+
+
+
+
+
+
+
+
+a = 34
+while a<= 100:
+    print(a)
+    a += 1;
