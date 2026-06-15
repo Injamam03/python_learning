@@ -1,0 +1,2 @@
+Injamam = 95
+Karim = 88
