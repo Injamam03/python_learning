@@ -30,15 +30,31 @@
 
 # Program to determine if a struggle is fundamental using functions
 
-def test_prime(n):
-    if (n==1):
-        return False
-    elif(n==2):
-        return True
-    else:
-        for x in range(2,n):
-            if(n%x==0):
-                return False
-        return True
-print(test_prime(int(input("Input Number: "))))
+# def test_prime(n):
+#     if (n==1):
+#         return False
+#     elif(n==2):
+#         return True
+#     else:
+#         for x in range(2,n):
+#             if(n%x==0):
+#                 return False
+#         return True
+# print(test_prime(int(input("Input Number: "))))
 
+
+#  =============== 00000000000000000000000 ========================== 
+
+#  ============== page 33 and program No : 10 ================
+
+# Program to find Fibonacci series using functions
+ 
+def fibo (n):
+    if n<=1:
+        return n
+    else:
+      return fibo(n-1) + fibo(n-2)
+n = int(input("Enter your number : "))
+print("fibo Serles....:")
+for i in range(n):
+ print(fibo(i),end=" ")
