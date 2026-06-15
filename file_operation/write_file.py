@@ -48,23 +48,23 @@ content = file.read()
 print(content)
 file.close()  #  শেষে বন্ধ করো
 
-# readline() — এক লাইন পড়া
-with open("file_operation/data.txt", "r", encoding="utf-8") as file:
-    line1 = file.readline()  # শুধু প্রথম লাইন
-    line2 = file.readline()  # শুধু দ্বিতীয় লাইন
-    print(line1)
-    print(line2)
+# # readline() — এক লাইন পড়া
+# with open("file_operation/data.txt", "r", encoding="utf-8") as file:
+#     line1 = file.readline()  # শুধু প্রথম লাইন
+#     line2 = file.readline()  # শুধু দ্বিতীয় লাইন
+#     print(line1)
+#     print(line2)
 
 
 
 #  readlines() — সব লাইন list এ 
-with open("file_operation/data.txt", "r", encoding="utf-8") as file:
-    lines = file.readlines()  # সব লাইন list এ আসবে
-    print(lines)
+# with open("file_operation/data.txt", "r", encoding="utf-8") as file:
+#     lines = file.readlines()  # সব লাইন list এ আসবে
+#     print(lines)
 
 #  readable() — পড়া যাবে কিনা check
-with open("file_operation/data.txt", "r", encoding="utf-8") as file:
-    print(file.readable())  # True
+# with open("file_operation/data.txt", "r", encoding="utf-8") as file:
+#     print(file.readable())  # True
 
-with open("file_operation/data.txt", "w", encoding="utf-8") as file:
-    print(file.readable())  # False (write mode এ পড়া যায় না)
+# with open("file_operation/data.txt", "w", encoding="utf-8") as file:
+#     print(file.readable())  # False (write mode এ পড়া যায় না)
