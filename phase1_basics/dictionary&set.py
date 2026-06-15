@@ -149,13 +149,16 @@ print(set2)
 #     i += 1
 
 
+name = [ "injamam", "Shaown","Rifat","shakib"]
 
+x = 0
 
+while x<len(name):
+    print(name[x])
+    x += 1
 
+number = (1,2,8,)
+x= 0
 
-
-
-a = 34
-while a<= 100:
-    print(a)
-    a += 1;
+while x < len(number):
+    print()
