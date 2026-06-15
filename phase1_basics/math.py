@@ -58,3 +58,14 @@ n = int(input("Enter your number : "))
 print("fibo Serles....:")
 for i in range(n):
  print(fibo(i),end=" ")
+
+
+
+
+
+
+#  =============== 00000000000000000000000 ========================== 
+
+#  ============== page 33 and program No : 10 ================
+
+# Program to find Fibonacci series using functions
