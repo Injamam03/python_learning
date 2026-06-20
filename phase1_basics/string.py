@@ -37,3 +37,14 @@ print(str1.replace("a","o"))
 print(str1.find("a"))
 print(str1.find("Sifat"))
 print(str1.count("a"))
+
+#  =================== module practice 
+import sys
+sys.path.append("D:\\injamam_project\\python_learning\\module_file")
+
+import fibo_module
+
+n = int(input("Enter your number: "))
+print("fibo Series....:")
+for i in range(n):
+    print(fibo_module.fibo(i), end=" ")

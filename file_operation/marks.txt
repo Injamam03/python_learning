@@ -1,2 +1,5 @@
-Injamam = 95
-Karim = 88
+injamam  = 52
+sakib = 64
+shihab = 90
+sagar = 30
+sahwon = 20

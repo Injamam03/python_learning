@@ -11,8 +11,11 @@ with open("file_operation/data.txt", "w", encoding="utf-8") as file:
     
 
 with open("file_operation/marks.txt", "w", encoding="utf-8") as file:
-    file.write("Injamam = 95\n")
-    file.write("Karim = 88\n")
+    n = int(input("কতজন student? "))
+    for i in range(n):
+        name = input("নাম: ")
+        mark = input("নম্বর: ")
+        file.write(f"{name} = {mark}\n")
 
 with open("file_operation/marks.txt", "r", encoding="utf-8") as file:
     for line in file:
@@ -41,7 +44,7 @@ print("File Deleted")
 
 
 
-# =========================================
+# ============================ (close,  readline , readlines, readable ) =============
 #  close() — File বন্ধ করা 
 file = open("file_operation/data.txt", "r", encoding="utf-8")
 content = file.read()
