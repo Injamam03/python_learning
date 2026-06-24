@@ -1,0 +1,2 @@
+sifat = 95
+sagar = 88

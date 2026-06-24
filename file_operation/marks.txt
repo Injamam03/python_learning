@@ -1,5 +1,2 @@
-injamam  = 52
-sakib = 64
-shihab = 90
-sagar = 30
-sahwon = 20
+Inamam  = 50
+Shawon = 60

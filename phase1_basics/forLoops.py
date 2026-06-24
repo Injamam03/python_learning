@@ -41,7 +41,7 @@ for i in range(1,6):
 
 print(" ================  this  8th for loop =======================")
 
-for i in range(1,10):
+for i in range(1, 10):
     print(i," Injamam")
     
 

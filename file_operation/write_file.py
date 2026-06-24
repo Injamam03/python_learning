@@ -1,20 +1,13 @@
 with open("file_operation/data.txt", "w", encoding="utf-8") as file:
-    file.write("আমার নাম Injamam\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    file.write("আমি Python শিখছি\n")
-    
+    file.write("My name is Injamam Ul Hoque Sifat\n")
+    file.write("I learn python\n")
+
 
 with open("file_operation/marks.txt", "w", encoding="utf-8") as file:
-    n = int(input("কতজন student? "))
+    n = int(input("how much student? "))
     for i in range(n):
-        name = input("নাম: ")
-        mark = input("নম্বর: ")
+        name = input("name: ")
+        mark = input("marks: ")
         file.write(f"{name} = {mark}\n")
 
 with open("file_operation/marks.txt", "r", encoding="utf-8") as file:
@@ -36,9 +29,9 @@ with open("file_operation/sifat.txt", "w", encoding="utf-8") as file:
     file.write("sifat = 95\n")
     file.write("sagar = 88\n")
 
-import os
-os.remove("file_operation/sifat.txt")
-print("File Deleted")
+# import os
+# os.remove("file_operation/sifat.txt")
+# print("File Deleted")
 
 
 
@@ -50,6 +43,9 @@ file = open("file_operation/data.txt", "r", encoding="utf-8")
 content = file.read()
 print(content)
 file.close()  #  শেষে বন্ধ করো
+
+
+
 
 # # readline() — এক লাইন পড়া
 # with open("file_operation/data.txt", "r", encoding="utf-8") as file:

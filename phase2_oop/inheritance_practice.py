@@ -27,6 +27,7 @@ class SubCalculator(Calculator):
 
 my_calculator = SubCalculator()
 temp = my_calculator.addition(60, 30)
+
 print("X+Y:", temp)
 temp = my_calculator.subtraction(60, 30)
 print("X-Y:", temp)
