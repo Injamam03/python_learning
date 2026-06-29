@@ -1,2 +1,0 @@
-Inamam  = 50
-Shawon = 60

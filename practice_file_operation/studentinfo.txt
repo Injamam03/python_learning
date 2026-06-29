@@ -1,0 +1,5 @@
+name : Thohin
+Roll : 685425
+department : Computer
+math : 81
+python : 88

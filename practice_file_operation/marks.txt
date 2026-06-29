@@ -1,0 +1,10 @@
+Inamam = 10
+shawon = 20
+thohin = 50
+monir  = 60
+sakib = 30
+shihab = 30
+alif  = 40
+rasel = 20
+sagar = 10
+hanif  = 30

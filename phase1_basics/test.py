@@ -1,3 +1,33 @@
+import class_one
+
+print("the addition is: ",class_one.add_fun(50,60))
+print("===========")
+class_one.Triangle()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """def add_fun(a, b):
     c = a + b
     return c
@@ -28,7 +58,7 @@ calculator(15, 16)"""
 
 # =======================
 
-def add_fun(a, b):
+"""def add_fun(a, b):
     c = a + b
     return c
 print('Addition A & B =', add_fun(a, b))
@@ -51,8 +81,7 @@ def div_fun(a, b):
 print('Addition      =', add_fun(15, 16))
 print('Subtraction   =', sub_fun(15, 16))
 print('Multiplication =', mul_fun(15, 16))
-print('Division      =', div_fun(15, 16))
-
+print('Division      =', div_fun(15, 16))"""
 
 
 
