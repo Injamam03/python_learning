@@ -1,39 +1,30 @@
+
 class Calculator:
-    # Super Class to define addition, subtraction, multiplication and division.
-    def addition(self, x, y):
+    def addition(self, x, y):   
         return x + y
-    def subtraction(self, x, y):
+    def subtraction(self, x, y):   
         return x - y
-    def multiplication(self, x, y):
+    def multiplication(self, x, y): 
         return x * y
     def division(self, x, y):
-        try:
-            return x / y
-        except ZeroDivisionError:
-            return 'It is impossible to divide by zero.'
+        try:    return x / y
+        except ZeroDivisionError: 
+            return 'Cannot divide by zero.'
 
 class SubCalculator(Calculator):
-    # Child class define. To calculate square and cube.
-    def square(self, x):
+    def square(self, x): 
         return x * x
-
-    def cube(self, x):
+    def cube(self, x):   
         return x * x * x
 
+result = SubCalculator()
 
-my_calculator = SubCalculator()
-temp = my_calculator.addition(60, 30)
-print("X+Y:", temp)
-temp = my_calculator.subtraction(60, 30)
-print("X-Y:", temp)
-temp = my_calculator.multiplication(60, 30)
-print("X*Y:", temp)
-temp = my_calculator.division(60, 0)
-print("X/Y:", temp)
-temp = my_calculator.square(9)
-print("Square of 9:", temp)
-temp = my_calculator.cube(5)
-print("cube of 5:", temp)
+print("X+Y:", result.addition(60, 30))
+print("X-Y:", result.subtraction(60, 30))
+print("X*Y:", result.multiplication(60, 30))
+print("X/Y:", result.division(60, 5))
+print("Square of 9:", result.square(9))
+print("cube of 5:", result.cube(5))
 
 
 
@@ -50,22 +41,29 @@ print("cube of 5:", temp)
 
 
 
+"""
+
+class Calculator:
+    def addition(self, x, y):      return x + y
+    def subtraction(self, x, y):   return x - y
+    def multiplication(self, x, y): return x * y
+    def division(self, x, y):
+        try:    return x / y
+        except ZeroDivisionError: return 'Cannot divide by zero.'
+
+class SubCalculator(Calculator):
+    def square(self, x): return x * x
+    def cube(self, x):   return x * x * x
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+c = SubCalculator()
+print("X+Y:", c.addition(60, 30))
+print("X-Y:", c.subtraction(60, 30))
+print("X*Y:", c.multiplication(60, 30))
+print("X/Y:", c.division(60, 0))
+print("Square of 9:", c.square(9))
+print("cube of 5:", c.cube(5))
+"""
 
 
 """class student:
