@@ -1,4 +1,62 @@
 class Animal:
+    def sound(self):
+        print("some sound")
+
+class Dog(Animal):
+    def sound(self):
+
+
+
+
+
+
+
+
+
+
+        
+        print("woof")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+
+class Cow(Animal):
+    def sound(self):
+        print("Ambah, Ambah")
+
+dog = Dog()
+cat = Cat()
+cow = Cow()
+
+dog.sound()
+cat.sound()
+cow.sound()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""class Animal:
     def __init__(self, name):
         self.name = name
         print(self.name + " was adopted.")
@@ -16,7 +74,7 @@ tim.run()
 
 a = Animal( "injamam")
 a.run()
-
+"""
 
 
 
